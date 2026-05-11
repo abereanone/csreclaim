@@ -34,21 +34,26 @@ body {
 
 .hero {
   display: grid;
-  gap: 20px;
+  gap: 22px;
   padding: clamp(18px, 4vw, 42px) 0 clamp(28px, 5vw, 56px);
 }
 
-.domain {
-  width: fit-content;
-  margin: 0;
-  padding: 7px 12px;
-  color: var(--blue);
-  font-size: 0.82rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  background: var(--maize);
-  border: 1px solid rgba(0, 39, 76, 0.18);
+.title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: clamp(18px, 4vw, 48px);
+}
+
+.site-logo {
+  width: min(300px, 28vw);
+  flex: 0 0 auto;
+  height: auto;
+  display: block;
+}
+
+.contact-logo {
+  width: min(220px, 30vw);
 }
 
 h1,
@@ -147,7 +152,7 @@ a {
   box-shadow: 0 24px 70px rgba(0, 39, 76, 0.13);
 }
 
-.contact-panel p:not(.domain) {
+.contact-panel p {
   color: var(--blue-soft);
   font-size: clamp(1.05rem, 2.3vw, 1.35rem);
   line-height: 1.55;
@@ -165,6 +170,15 @@ a {
 
   .hero {
     gap: 16px;
+  }
+
+  .title-row {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .site-logo {
+    width: min(150px, 34vw);
   }
 
   .tagline {
