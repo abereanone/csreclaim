@@ -65,7 +65,7 @@ p {
 h1 {
   max-width: 920px;
   color: var(--blue);
-  font-size: clamp(2.45rem, 8vw, 5.8rem);
+  font-size: clamp(2.45rem, 8vw, 4.3rem);
   line-height: 0.94;
 }
 
