@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Hand-maintained. Nothing regenerates this file.
+
+  URLs are extensionless: Cloudflare Pages 308-redirects the .html form, and every
+  canonical tag matches what is listed here. Listing a .html URL would list a redirect.
+
+  lastmod is each page's last commit date. 404.html is deliberately absent.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://countyseatreclaimed.watch/</loc>
+    <lastmod>2026-06-02T16:55:14-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://countyseatreclaimed.watch/articles</loc>
+    <lastmod>2026-06-02T16:55:14-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://countyseatreclaimed.watch/contact</loc>
+    <lastmod>2026-06-02T16:55:14-04:00</lastmod>
+  </url>
+  <url>
+    <loc>https://countyseatreclaimed.watch/biblical-caution-county-seat-reclaimed</loc>
+    <lastmod>2026-06-02T16:55:14-04:00</lastmod>
+  </url>
+</urlset>
