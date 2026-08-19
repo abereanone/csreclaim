@@ -120,6 +120,10 @@ h1 {
   box-shadow: 0 24px 70px rgba(0, 39, 76, 0.13);
 }
 
+.video-section + .video-section {
+  margin-top: clamp(18px, 3vw, 30px);
+}
+
 .section-heading {
   display: grid;
   gap: 4px;
